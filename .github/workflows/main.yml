@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      # - uses: actions/checkout@v2
-      # - name: Run a one-line script
-      #   run: echo ${{ secrets.DOCKERHUB_USERNAME }}, ${{ secrets.DOCKERHUB_TOKEN }}, $secrets.DOCKERHUB_USERNAME, $secrets.DOCKERHUB_TOKEN
       -
         name: Checkout
         uses: actions/checkout@v4
@@ -33,4 +30,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/go-ethereum:latest
