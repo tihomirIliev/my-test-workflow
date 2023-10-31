@@ -12,5 +12,5 @@
 
 ##### SIMUALTE CHANGE SO A PULL REQUEST CAN BE POSSIBLE
     Increase value of the counter with 1
-    Counter 1
+    Counter 2
     
